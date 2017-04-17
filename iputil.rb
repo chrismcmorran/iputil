@@ -55,11 +55,5 @@ if options[:wan]
   end
   puts getWANAddress
 end
-if options[:secure]
-  if options[:verbose]
-    printf 'WAN (HTTPS): '
-  end
-  puts getWANAddressSecure
-end
 
 
